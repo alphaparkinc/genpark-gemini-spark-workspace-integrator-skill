@@ -1,0 +1,27 @@
+{
+  "name": "genpark-gemini-spark-workspace-integrator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Gemini Spark Google workspace connector.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "google",
+    "gemini",
+    "workspace"
+  ],
+  "inputs": {
+    "doc_title": {
+      "type": "string"
+    },
+    "recipients": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "operation_status": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
